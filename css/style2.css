@@ -1,0 +1,233 @@
+
+/* Roboto fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* color used : #08D9D6  -  #252A34  -  #FF2E63  -  #EAEAEA */
+
+/* Rest */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main style */
+html, body
+{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .bg-dark {
+    background-color: #252A34;
+    color: #fff;
+  }
+
+  .bg-light {
+    background-color: #EAEAEA;
+    color: #252A34;
+    height: 100%
+
+  }
+
+  .bg-primary {
+    background-color: #5180a7;
+    color: #fff;
+  }
+
+  .primary-text {
+        color: #FF2E63;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .l-heading {
+    font-size: 48px;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+  }
+
+  .py-1 {
+
+    padding: 50px 0;
+
+  }
+
+  .py-2 {
+
+    padding: 24px 0;
+
+  }
+
+  .py-3 {
+    padding: 100px 0;
+  }
+
+  
+
+  .btn {
+    background-color: #08D9D6;
+    color: #fff;
+    padding:13px 24px ;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background-color: #FF2E63;
+
+  }
+
+  .m-heading {
+    font-size: 32px;
+    line-height: 2;
+  }
+
+
+
+
+  /* Section: Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    top: 0;
+    z-index: 1;
+    
+  }
+
+  #navbar .logo img {
+    width: 80px;
+    display: block;
+  }
+
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  #navbar ul li a {
+    padding: 16px;
+    color: #fff;
+    
+  }
+
+  #navbar ul li a:hover {
+    background-color: #08D9D6;
+    border-radius: 5px;
+  }
+
+  /* Home page */
+  #Home-page {
+    background: #252A34 url(../img/Home\ page.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+
+  } 
+  .Home-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 24px;
+    /* overlay */
+    background-color: rgba(0,0,0, 0.9);
+
+
+  }
+
+
+  /* About */
+  #about .about-content {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+  }
+
+  #about .about-content div, 
+  #about .about-content img {
+  flex: 1;
+   }
+
+  #about .about-content img {
+    display: block;
+    width: 50%;
+    border: 5px solid #fff;
+    margin-left: 16px;
+  }
+
+
+  /* Courses */
+  #Courses {
+    color:#252A34;
+  }
+
+  #Courses .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Courses .boxes .box {
+    flex: 1;
+    padding: 16px;
+
+  }
+
+  #Courses .boxes .box .img {
+    width: 70px;
+    background-color: #08D9D6;
+    padding: 8px;
+    border-radius: 100%;
+  }
+
+  /* Register */
+  #Register {
+    display: flex;
+    
+  }
+
+  .Register {
+    flex: 1;
+  }
+
+  .Register input, .Register select {
+    width: 25%;
+    padding: 12px;
+    border: none;
+    margin-bottom: 16px;
+    outline: none;
+  }
+
+
+ /* Users */
+
+ #table, td, th {
+  border: 1px solid black;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.th {
+  text-align: left;
+}
+ 
